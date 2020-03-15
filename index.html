@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- ico -->
+    <link rel="shortcut icon" href="img/icons.png" />
+    <link rel="stylesheet" href="a/css/all.css">
+	<title>XZLP</title>
+
+	
+	<style>
+		.tu{
+			background-color: transparent;
+			box-shadow: 0px 0px  200px rgb(252, 95, 4);
+			border-radius: 50%;
+			padding: 0px;
+		    vertical-align: middle;
+			margin: auto;
+			animation: run 3s linear infinite;
+            opacity: .6;
+			
+			
+		}
+		@keyframes run {
+			from{
+				transform: rotateZ(0);
+			}
+			to{
+				transform: rotateZ(360deg);
+			}
+			
+		}
+		.tu:hover{
+			background-color: transparent;
+			transform: rotateZ(360deg);
+			transition:rotate  2s linear;
+			box-shadow:40px 40px 40px red;
+		}
+		.h1{
+			font-family: vivaldi,edwardian script itc,gloucester mt,sanserif;
+			font-size: 50px;
+			
+		}
+		.p1{
+			font-family: 华文楷体,san'se''Times New Roman', Times, serifsanserif;
+			transform: scale(1);
+			transition: linear .5s;
+			margin: 0 auto;
+			overflow: hidden;
+			width: 200px;
+			background-color: transparent;
+			color: rgb(158, 106, 10);
+			font-size: 24px;
+			margin-bottom: 50px;
+		}
+		.p1:hover{
+		     transform: scale(1.3);
+			 transition: linear .5s;
+			 
+			 box-shadow: 0px 0px  20px rgb(252, 95, 4);
+			 border-radius: 30%;
+			 
+			
+		}
+		
+		.p3{
+			font-family: 华文楷体,serifsanserif;
+			transform: scale(1);
+			transition: linear .5s;
+		}
+		.p3:hover{
+			letter-spacing:8px ;
+		}
+	
+		body{
+			background-image: url(img/xz.jpg);		
+			min-height: 948px;
+			background-size: cover;
+			background-repeat: no-repeat;
+			position: relative;
+		}
+		.a{
+            position: relative;
+            display: inline-block;
+			width: 100px;
+            padding: 15px 30px;
+            color: #dd0a6c;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            text-decoration: none;
+            font-size: 13px;
+            overflow: hidden;
+			background-color: rgba(255,255,255,.2);
+            transition: 0.5s;
+			border-radius: 15px ;
+            
+
+        }
+       .a:hover{
+            color: #255784;
+            background-color: #2196f3;
+            box-shadow: 0 0 100px #2196f3,0 0 400px #500723,0 0 800px #0f963c;
+            transition-delay: .85s;
+        }
+        .a span{
+            position: absolute;
+            display: block;
+        }
+        .a span:nth-child(1){
+            top:0px;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background:linear-gradient(90deg,transparent,#2196f3);
+
+        }
+        .a:hover span:nth-child(1){
+            left:100%;
+            transition: .4s;
+        }
+       .a span:nth-child(2){
+            top:-100%;
+            right: 0%;
+            width: 2px;
+            height: 100%;
+            background:linear-gradient(180deg,transparent,#2196f3);
+
+        }
+        .a:hover span:nth-child(2){
+            top:100%;
+            transition: 1s;
+            transition-delay: 0.2s;
+        }
+        .a span:nth-child(3){
+            bottom:0px;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background:linear-gradient(270deg,transparent,#2196f3);
+
+        }
+        .a:hover span:nth-child(3){
+            right:100%;
+            transition: 1s;
+            transition-delay: 0.6s;
+        }
+        .a span:nth-child(4){
+            bottom:-100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background:linear-gradient(360deg,transparent,#2196f3); 
+        }
+        .a:hover span:nth-child(4){
+            bottom:100%;
+            transition: 1s;
+            transition-delay: .8s;
+        }
+		#play{
+            width: 60px;
+        }
+	</style>
+</head>
+
+<body style="line-height: 1.9">
+	<div style="padding-top:10%;text-align:center;">
+		<div>
+			<div class="bg">
+				<img src="img/f.png" width="40"class="tu" >
+			</div>
+			
+		</div>
+		<h1 style="color:#B7E7F6;" class="h1">
+			<strong>Miracle</strong>
+		</h1>
+		<div  class="p1">
+			WELCOME TO THE WEBSITE OF XIAO ZHAN'S WIFE <br>
+		</div>
+		<p>
+			<a  href="#" class="a" id="a">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				点隔壁的试试
+            </a>
+            <a  href="#" class="a" id="b">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				你点我一下试试？
+            </a>
+            <a  href="#" class="a" id="c">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				为啥点它不点我呀
+			</a>
+		<p>
+			<span style="color: #0e6bd4;" class="p3">哈撒给 面对疾风吧</span>
+			<br>
+            <span style="color:#2e2a3f;background-color:#5f5c5c4d;"></span>
+            
+		</p>
+       
+        <script type="text/javascript" color="255,255,255" opacity='1' zIndex="-2" count="200" src="https://cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+        <script>
+            var a=document.getElementById("a");
+            var b=document.getElementById("b");
+            var c=document.getElementById("c");
+            var play=document.getElementById("play");
+            var au=document.getElementById("au");
+            a.onclick=function(){
+                alert("点隔壁的去呀 调皮");
+            }
+            b.onclick=function(){
+                alert("嘿呀 你还真敢点呀");
+            }
+            c.onclick=function(){
+                alert("嘤嘤嘤");       
+            }
+        </script>
+	</div>
+</body>
+</html>
